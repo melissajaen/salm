@@ -125,7 +125,7 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #222; }
 
 
@@ -430,6 +430,9 @@ there.
 
 
 
+
+
+
 body {
     font: 1em/1.67;
     margin: 0;
@@ -523,6 +526,34 @@ body {
     
 }
 
+.boxed {
+    box-sizing: content-box;
+    border: 3px;
+    border-color: #9FD8D6;
+    border-style: solid;
+}
+
+.boxed p {
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.products p {
+    font-weight: 200;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.products hr {
+    margin-top: 3em;
+    margin-bottom: 2em;
+    border-color: #979797;
+    background-color: #979797
+    height: 1px;
+}
+
 @media only screen and (min-width: 400px) {
     .masonry {
         -moz-column-count: 2;
@@ -538,6 +569,8 @@ body {
         column-count: 3;
     }
 }
+
+    
 
 @media only screen and (min-width: 900px) {
     .masonry {

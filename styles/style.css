@@ -505,14 +505,15 @@ body {
     -webkit-box-sizing: border-box;
 }
 
-.row .left p {
+.left p {
     padding-top: 2em;
     font-size: .75em;
 }
 
-.row .center ul li {
+.center ul li {
     display: inline-block;
     list-style-type: none;
+    text-align: center;
     font-size: .75em;
     float: right;
     padding: .5em;

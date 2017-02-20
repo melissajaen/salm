@@ -511,7 +511,7 @@ body {
 }
 
 .center ul li {
-    display: inline-block;
+    display: inline-flex;
     list-style-type: none;
     text-align: center;
     font-size: .75em;
@@ -553,6 +553,10 @@ body {
     border-color: #979797;
     background-color: #979797
     height: 1px;
+}
+
+.no-margin {
+  margin: 0;
 }
 
 @media only screen and (min-width: 400px) {
